@@ -7,7 +7,7 @@ This **website/application** provides calm background noises for people trying t
 There are various environmental sounds including: wind, raindrops, fire, thunder, crickets, birds, etc...
 
 # Student Contribution
-This project consisted of four members and was completed within a time frame of **48 hours**:
+This project consisted of four members and was completed within a time frame of **36 hours**:
 
 [Brianna Chen](https://github.com/Brianna0510)
 
