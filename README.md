@@ -21,7 +21,9 @@ This project consisted of four members and was completed within a time frame of 
 - Simply click [here](https://www.google.ca/) to access the website:
 
 - Once you enter the website, simply drag the sliders up or down to adjust the volume of the particular ambient sound you want to hear!
+
 *Insert GIF*
 
 - Feel free to set a timer for the sounds at the *location*
+
 *Insert GIF*
