@@ -1,7 +1,7 @@
 ![Hackathon Logo](https://github.com/CarsonLeee/perfectstorm/blob/main/logo.jpg)
 # <p align="center">🐎 WESTERN UNIVERSITY HACKATHON 2021 🐎</p>
 
-# Project Description
+# 📄 Project Description
 This **website/application** provides calm background noises for people trying to study, destress, or just vibe! 
 
 There are various environmental sounds including: wind, raindrops, fire, thunder, crickets, birds, etc...
