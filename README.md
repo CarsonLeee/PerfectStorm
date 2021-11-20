@@ -8,9 +8,13 @@ Ambient sounds include environmental noises such as water waves, traffic noise, 
 
 # Student Contribution
 This project consisted of four members within a time frame of **48 hours**:
+
 [Brianna Chen](https://github.com/Brianna0510)
+
 [Carson Lee](https://github.com/JustynLe)
+
 [Justyn Le](https://github.com/CarsonLeee)
+
 [Vanessa Tumanov](https://github.com/vanessatumanov)
 
 # Start Listening!
