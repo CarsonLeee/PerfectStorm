@@ -4,7 +4,7 @@
 # Project Description
 This **website/application** provides calm background noises for people trying to study, destress, or just vibe! 
 
-Ambient sounds include environmental noises such as water waves, traffic noise, alarms, extraneous speech, bioacoustic noise from animals, and electrical noise from devices such as refrigerators, air conditioning, power supplies, and motors.
+There are various environmental sounds including: wind, raindrops, fire, thunder, crickets, birds, etc...
 
 # Student Contribution
 This project consisted of four members and was completed within a time frame of **48 hours**:
