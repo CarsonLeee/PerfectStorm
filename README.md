@@ -7,7 +7,7 @@ This **website/application** provides calm background noises for people trying t
 Ambient sounds include environmental noises such as water waves, traffic noise, alarms, extraneous speech, bioacoustic noise from animals, and electrical noise from devices such as refrigerators, air conditioning, power supplies, and motors.
 
 # Student Contribution
-This project consisted of four members within a time frame of **48 hours**:
+This project consisted of four members and was completed within a time frame of **48 hours**:
 
 [Brianna Chen](https://github.com/Brianna0510)
 
