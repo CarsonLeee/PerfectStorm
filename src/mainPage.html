@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html>
+     
+
+
+      <body>
+          <div class="slider-wrapper">
+            <input type="range" min="0" max="11" value="0" step="1" />
+          </div>
+
+          <p>hiiiiiiii</p>
+        </div>
+
+        <script>
+          // When the user scrolls down 20px from the top of the document, slide down the navbar
+          window.onscroll = function () {
+            scrollFunction();
+          };
+
+          //you can scrool the slide up and down now:)
+          function scrollFunction() {
+            if (
+              document.body.scrollTop > 20 ||
+              document.documentElement.scrollTop > 20
+            ) {
+              document.getElementById("navbar").style.top = "0";
+            } else {
+              document.getElementById("navbar").style.top = "-50px";
+            }
+          }
+        </script>
+      </body>
+    </html>
+  </head>
+</html>
