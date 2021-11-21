@@ -18,7 +18,7 @@ This project consisted of four members and was completed within a time frame of 
 [Vanessa Tumanov](https://github.com/vanessatumanov)
 
 # 🎶 Start Listening!
-- Simply click [here](https://www.google.ca/) to access the website:
+- Simply click [here](https://perfectst0rm.herokuapp.com/) to access the website:
 
 - Once you enter the website, simply drag the sliders up or down to adjust the volume of the particular ambient sound you want to hear!
 
