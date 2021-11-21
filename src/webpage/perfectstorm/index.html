@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sounds</title>
+    <link rel="stylesheet" type="text/css" href="index2.css" />
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="context">
+        <div class="context_head">
+          <article class="context_nav">
+            <a href="#" class="context_link-none">
+              <img class="nav_image" src="logo.png" />
+            </a>
+            <span class="context_nav-function">
+              <em class="context_nav-icon" id="stopButton"></em>
+
+              <em
+                class="context_nav-icon context_nav-clock"
+                onclick="countdownTimeStart()"
+              >
+                <p id="demo"></p
+              ></em>
+            </span>
+          </article>
+        </div>
+        <div class="context_body">
+          <div class="context_main">
+            <article class="context_item">
+              <article class="context_item-cont">
+                <a href="#" class="context_item-link">
+                  <img src="wind.png" class="context_item-img" />
+                </a>
+                <audio src="./wind.mp3" controls autoplay loop>
+                  Your browser does not support the <code>audio</code> element.
+                </audio>
+              </article>
+            </article>
+            <article class="context_item">
+              <article class="context_item-cont">
+                <a href="#" class="context_item-link">
+                  <img src="thunder.png" class="context_item-img" />
+                </a>
+                <audio src="./雷.mp3" controls autoplay loop>
+                  Your browser does not support the <code>audio</code> element.
+                </audio>
+              </article>
+            </article>
+            <article class="context_item">
+              <article class="context_item-cont">
+                <a href="#" class="context_item-link">
+                  <img src="rain.png" class="context_item-img" />
+                </a>
+                <audio src="./雨.mp3" controls autoplay loop>
+                  Your browser does not support the <code>audio</code> element.
+                </audio>
+              </article>
+            </article>
+            <article class="context_item">
+              <article class="context_item-cont">
+                <a href="#" class="context_item-link">
+                  <img src="frog.png" class="context_item-img" />
+                </a>
+                <audio src="./青蛙.mp3" controls autoplay loop>
+                  Your browser does not support the <code>audio</code> element.
+                </audio>
+              </article>
+            </article>
+            <article class="context_item">
+              <article class="context_item-cont">
+                <a href="#" class="context_item-link">
+                  <img src="fireplace.png" class="context_item-img" />
+                </a>
+                <audio src="./火.mp3" controls autoplay loop>
+                  Your browser does not support the <code>audio</code> element.
+                </audio>
+              </article>
+            </article>
+            <article class="context_item">
+              <article class="context_item-cont">
+                <a href="#" class="context_item-link">
+                  <img src="bird.png" class="context_item-img" />
+                </a>
+                <audio src="./鸟.mp3" controls autoplay loop>
+                  Your browser does not support the <code>audio</code> element.
+                </audio>
+              </article>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("stopButton").onclick = function () {
+        var sounds = document.getElementsByTagName("audio");
+        for (i = 0; i < sounds.length; i++) sounds[i].pause();
+      };
+
+      function countdownTimeStart() {
+        var counter = 10;
+        var myTimer = setInterval(function () {
+          document.getElementById("testTimer").innerHTML = counter;
+          counter--;
+          if (counter < 0) {
+            clearInterval(myTimer);
+            document.getElementById("testTimer").style.color = "red";
+
+            // do anything then time is up. ex: submit() function
+            document.getElementById("cntnt01moduleform_1").submit();
+          }
+        }, 1000);
+      }
+      Timer();
+    </script>
+  </body>
+</html>

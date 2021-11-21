@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="testTimer"></div>
+    <script>
+      function Timer() {
+        var counter = 10;
+        var myTimer = setInterval(function () {
+          document.getElementById("testTimer").innerHTML = counter;
+          counter--;
+          if (counter < 0) {
+            clearInterval(myTimer);
+            document.getElementById("testTimer").style.color = "red";
+
+            // do anything then time is up. ex: submit() function
+            document.getElementById("cntnt01moduleform_1").submit();
+          }
+        }, 1000);
+      }
+      Timer();
+    </script>
+  </body>
+</html>

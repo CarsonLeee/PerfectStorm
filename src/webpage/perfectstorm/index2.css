@@ -1,0 +1,187 @@
+/*This outputs the background of the website*/
+html,
+body,
+div,
+article,
+a,
+image {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html,
+body {
+  font-size: 12px;
+  height: 100%;
+}
+
+image {
+  vertical-align: top;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #aaa;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  cursor: pointer;
+  background: #acdef3;
+  box-shadow: 0 2px 2px #3b4547;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+/* input[type=range]::-webkit-slider-runnable-track {
+  height: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px #def3f8;
+} */
+
+body {
+  min-height: 100vh;
+  background: url("background.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.box {
+  height: 100%;
+}
+
+.context_nav,
+.context_main {
+  max-width: 1226px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.context_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.context_link-none,
+.context_item-link {
+  font-size: 0px;
+  display: inline-block;
+}
+
+.nav_image {
+  width: 100px;
+}
+
+.context_nav-function {
+  font-size: 0;
+}
+
+.context_nav-icon {
+  display: inline-block;
+  width: 2.8rem;
+  height: 2.8rem;
+  font-size: 0;
+  background: rgba(0, 0, 0, 0.4) url(playpause.png) no-repeat center;
+  background-size: 90%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.context_nav-icon + .context_nav-icon {
+  margin-left: 1rem;
+}
+
+.context_nav-clock {
+  background-image: url(sleeptimer.png);
+  background-size: cover;
+}
+
+.context_body {
+  padding-top: 2rem;
+}
+
+.context_main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.context_item {
+  padding: 1.5rem;
+}
+.context_item-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.context_item-link {
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.context_item-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  background: #acdef3;
+}
+.context_item-range {
+  margin-left: 2rem;
+}
+/*This is the control where the first row of columns goes, and how spaced they are*/
+.topRowIcons {
+  justify-self: stretch;
+  display: grid;
+  grid-template-columns: 570px 600px 120px 100px;
+  grid-gap: 50px 50px;
+}
+
+/*This is the control where the second row of columns goes, and how spaced they are*/
+.middleRowIcons {
+  position: relative;
+  top: 75px;
+  justify-self: stretch;
+  display: grid;
+  grid-template-columns: 650px 560px 0px;
+  grid-gap: 50px 50px;
+}
+
+/*This is the control where the third row of columns goes, and how spaced they are*/
+.lowRowIcons {
+  position: relative;
+  top: 250px;
+  justify-self: stretch;
+  display: grid;
+  grid-template-columns: 650px 560px 0px;
+  grid-gap: 50px 50px;
+}
+
+.clock_input {
+  margin-bottom: 1em;
+}
+
+.clock_input input[type="text"] {
+  font: normal 1.2rem/1.5em "Comic Sans MS", cursive, sans-serif;
+  width: 2.5em;
+  text-align: center;
+}
+
+.clock_input button {
+  font: normal 1.2rem/2.5em Arial, Verdana, Sans-serif;
+  padding: 0 1em;
+  background: #6699ff;
+  border-radius: 6px;
+  color: white;
+  margin-left: 1em;
+  cursor: pointer;
+}
